@@ -1,0 +1,54 @@
+'''
+for x in range(5 ,12):
+    print("this is working")
+
+while x > 5 :
+    print ("this is working for %d ", x)
+    x-=1
+
+'''
+creates a comment. this is for multiline comments (single quotes )
+'''
+
+#is also for comment but a single line comment.
+
+print ( "this is tthe value of x", x )
+'''
+
+
+
+
+
+using the range function in for loop:
+
+
+import math
+for x in range(2, 100):
+    xx=0
+    yy = math.ceil(x/2)
+    for y in range(2, yy+1):
+        #print (y, "this is y")
+        if x%y == 0:
+            xx += 1
+    if xx == 0:
+        print(x, " this is a prime")
+    xx=0
+
+
+
+
+
+finding an item in an array
+
+my_numbers = [4,3,5,64,47,48]
+for x in range (1, 100):
+    if x in my_numbers:
+        print ("found x" , x)
+
+
+
+
+
+
+
+
